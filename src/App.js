@@ -1,20 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './components/Upload'
+import UploadButton from './components/Upload';
 
 const Banner = ({ title }) => (
-  <h1 className='banner'>{title}</h1>
+  <h1 class='Banner'>
+    {title}
+  </h1>
 );
 
 function App() {
   return (
     <>
-      <Banner title={'Data by Daylight'} />
       <div className='App'>
+        <Banner title={'Data by Daylight'} />
+        <UploadButton/>
       </div>
-        <br />
-        <br />
     </>
   );
 }
