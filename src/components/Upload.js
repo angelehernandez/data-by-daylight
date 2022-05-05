@@ -1,23 +1,22 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import { Button } from 'react-bootstrap';
 
-const UploadButton = () => {
+const UploadButton = ({onFileSelect}) => {
+    const fileInput = useRef(null);
+
+    const handleFileInput = (e) => {
+        // handle validations
+        onFileSelect(e.target.files[0])
+    }
 
     return (
-        <div>
-            <div>
-                <h3>Upload Screenshot Below</h3>
-            </div>
-
-            <br></br>
-
-            <div>
-                <Button>
-                    Upload
-                </Button>
-            </div>
+        <div className="file-uploader">
+            <input type="file" onChange={handleFileInput}/>
+            <Button onClick={e => fileInput.current && fileInput.current.click()} className="btn btn-primary">
+                Upload
+            </Button>
         </div>
-    );
+    )
 }
 
 export default UploadButton;
