@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/Upload'
 
 const Banner = ({ title }) => (
   <h1 className='banner'>{title}</h1>
