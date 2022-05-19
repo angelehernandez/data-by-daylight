@@ -2,10 +2,16 @@
     "games": [
         {
             "id": 0,
-            "user": null,
+            "user": "Angel",
             "perks": [
-                
+                "adrenaline"
             ]
+        }
+    ],
+    "users": [
+        {
+            "id": 0,
+            "displayName": "Angel"
         }
     ]
 }
