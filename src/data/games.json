@@ -1,17 +1,33 @@
 {
-    "games": [
-        {
-            "id": 0,
-            "user": "Angel",
-            "perks": [
-                "adrenaline"
-            ]
-        }
-    ],
-    "users": [
-        {
-            "id": 0,
-            "displayName": "Angel"
-        }
-    ]
+  "games": [
+    {
+      "id": 0,
+      "perks": [
+        "adrenaline"
+      ],
+      "user": "Angel"
+    }
+  ],
+  "users": {
+    "0": {
+      "displayName": "Angel",
+      "id": 0
+    },
+    "Ne6kYtHt4rY0Cs7FW8JNcqYtK4w2": {
+      "displayName": "Angel Hernandez",
+      "id": "Ne6kYtHt4rY0Cs7FW8JNcqYtK4w2"
+    },
+    "RwX3YYDLtUMr6IeBoWgOMAx4x1r2": {
+      "displayName": "Taylor Kliss",
+      "id": "RwX3YYDLtUMr6IeBoWgOMAx4x1r2"
+    },
+    "h76pym6YGUdpD2dBwIt0Fj78DXD3": {
+      "displayName": "Xiaowei Chen",
+      "id": "h76pym6YGUdpD2dBwIt0Fj78DXD3"
+    },
+    "v97wav9rREOUZFRHmGRrxCGaQ5k1": {
+      "displayName": "David Aust",
+      "id": "v97wav9rREOUZFRHmGRrxCGaQ5k1"
+    }
+  }
 }
