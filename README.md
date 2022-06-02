@@ -3,6 +3,10 @@
 This project is hosted on [firebase](https://data-by-daylight.web.app). It is not complete; however,\
 there are progress in each of the main categories: data collection, data interpretation, and data representation.
 
+## The Project
+
+Data by Daylight is broken down into three categories: data collection, data interpretation, and data representation.
+
 ### Data Collection
 Screenshots of scoreboards have been collected over the entirety of the Spring 2022 quarter.\
 It is currently stored on Google Drive.
