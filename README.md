@@ -1,8 +1,26 @@
-# Getting Started with Create React App
+# Data by Daylight
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hosted on [firebase](https://data-by-daylight.web.app). It is not complete; however,\
+there are progress in each of the main categories: data collection, data interpretation, and data representation.
 
-## Available Scripts
+### Data Collection
+Screenshots of scoreboards have been collected over the entirety of the Spring 2022 quarter.\
+It is currently stored on Google Drive.
+
+### Data Interpretation
+Currently, I am not confident enough in my recognition software to depend on it for data collection.\
+I have reached out to the creator of [Dead by Daylight Twitch Extension](https://dbdtwitch.com/) for advice.\
+In the meantime, I have manually written the data found in the stacked bar chart found on the website.
+
+### Data Representation
+Data is represented as a stacked bar chart. It currently only represents data for survivors.\
+The logic isn't quite the same for killer perks, given that it is possible to draw as a killer,\
+so there is still work to be done. Additionally, because all my current data comes from the same source/player,\
+the collected data would be incredibly redundant. It is laborious to create a new "build" of perks\
+every game, so this data would be best represented once image recognition is fully fleshed out,\
+allowing for more diversity.
+
+## NPM Scripts
 
 In the project directory, you can run:
 
@@ -27,44 +45,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Firebase Scripts
 
-### `npm run eject`
+In the project directory, you can run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `firebase deploy`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploys the current build to the firebase [hosted website](https://data-by-daylight.web.app).
