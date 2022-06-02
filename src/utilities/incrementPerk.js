@@ -1,4 +1,4 @@
-export const incrementPerk = (perk, outcome, generatedData) => {
+const incrementPerk = (perk, outcome, generatedData) => {
     
     // look for perk in array
     for (let i = 0; i < generatedData.length; i++) {
@@ -19,3 +19,5 @@ export const incrementPerk = (perk, outcome, generatedData) => {
     }
     return generatedData;
 }
+
+export default incrementPerk;
