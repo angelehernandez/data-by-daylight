@@ -1,7 +1,7 @@
 # Data by Daylight
 
 This project is hosted on [firebase](https://data-by-daylight.web.app). It is not complete; however,\
-there are progress in each of the main categories: data collection, data interpretation, and data representation.
+there is progress in each of the main categories: data collection, data interpretation, and data representation.
 
 ## The Project
 
