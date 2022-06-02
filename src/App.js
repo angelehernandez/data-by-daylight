@@ -6,12 +6,13 @@ import StackedBarChart from './components/StackedBarChart';
 import data from './data/survivorData';
 import colors from './data/colors';
 import keys from './data/keys';
+import { getSurvivorData } from './utilities/getSurvivorData';
 import "./styles/styles.css";
 import { useEffect, useState } from 'react';
 import { useData, useUserState } from './utilities/firebase';
 
 const Banner = ({ title }) => (
-  <h1 class='Banner'>
+  <h1 className='Banner'>
     {title}
   </h1>
 );
@@ -31,7 +32,7 @@ function App() {
         </div>
 
         <div className='Data'>
-          <StackedBarChart colors={colors} data={data} keys={keys} />
+          <StackedBarChart colors={colors} data={getSurvivorData(data)} keys={keys} />
         </div>
       </div>
     </>
