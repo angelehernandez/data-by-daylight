@@ -1,538 +1,538 @@
 const data = [
     {
       key: "ace in the hole",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "adrenaline",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "aftercare",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "alert",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "any means necessary",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "appraisal",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "autodidact",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "balanced landing",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "bite the bullet",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "blast mine",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "blood pact",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "boil over",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "bond",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "boon: circle of healing",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "boon: dark theory",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "boon: exponential",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "boon: shadow step",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "borrowed time",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "botany knowledge",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "breakdown",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "breakout",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "buckle up",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "built to last",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "calm spirit",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "clairvoyance",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "corrective action",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "counterforce",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "dance with me",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "dark sense",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "dead hard",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "deception",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "decisive strike",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "deliverance",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "desperate measures",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "detective's hunch",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "distortion",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "diversion",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "deja vu",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "empathetic connection",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "empathy",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "fast track",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "flashbang",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "flip-flop",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "for the people",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "guardian",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "head on",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "hope",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "inner focus",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "inner healing",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "iron will",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "kindred",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "kinship",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "leader",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "left behind",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "lightweight",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "lithe",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "lucky break",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "mettle of man",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "no mither",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "no one left behind",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "object of obsession",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "off the record",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "open-handed",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "overcome",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "overzealous",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "parental guidance",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "pharmacy",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "plunderer's instinct",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "poised",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "power struggle",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "premonition",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "prove thyself",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "quick and quiet",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "red herring",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "renewal",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "repressed alliance",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "residual manifest",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "resilience",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "resurgence",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "rookie spirit",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "saboteur",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "self-aware",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "self-care",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "self-preservation",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "situation awareness",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "slipper meat",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "small game",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "smash hit",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "sole survivor",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "solidarity",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "soul guard",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "spine chill",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "sprint burst",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "stake out",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "streetwise",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "technician",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "tenacity",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "this is not happening",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "unbreakable",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "up the ante",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "urban evasion",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "vigil",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "visionary",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "wake up",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "we'll make it",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "we're gonna live forever",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
     {
       key: "windows of opportunity",
-      win: null,
-      loss: null
+      win: 0,
+      loss: 0
     },
   ];
   
