@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import UploadButton from './components/Upload';
 import SignInButton from './components/SignIn';
 import StackedBarChart from './components/StackedBarChart';
-import data from './data/data';
+import data from './data/survivorData';
 import colors from './data/colors';
 import keys from './data/keys';
 import "./styles/styles.css";

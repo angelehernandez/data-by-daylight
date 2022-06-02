@@ -10,7 +10,9 @@ const colors = {
     total_fan_heating: "firebrick",
     total_heat_1: "darkgoldenrod",
     total_heat_2: "brown",
-    total_records: "red"
+    total_records: "red",
+    win: "green",
+    loss: "red"
   };
   
 export default colors;  
